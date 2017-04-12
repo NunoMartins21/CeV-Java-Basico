@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Aula05 - Olá Mundo JavaFX.jnlp">
+  <information>
+    <title>Aula05 - Olá Mundo JavaFX</title>
+    <vendor>Nuno Martins</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Aula05 - Olá Mundo JavaFX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="aula05.OláMundoJavaFX"  name="Aula05 - Olá Mundo JavaFX" />
+  <update check="always"/>
+</jnlp>
